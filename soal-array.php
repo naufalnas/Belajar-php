@@ -20,7 +20,11 @@
             Adults: "Hopper", "Nancy",  "Joyce", "Jonathan", "Murray"
         */
     $kids = array("Mike", "Dustin", "Will", "Lucas", "Max", "Eleven"); // Lengkapi di sini
-    $adults;
+    echo "Kids : " .$kids[0].", " .$kids[1]. ", " .$kids[2]. ", " .$kids[3]. ", " .$kids[4].", " .$kids[5].". ";
+    echo "<br />";
+    echo "<br />";
+    $adults = array("Hopper", "Nancy",  "Joyce", "Jonathan", "Murray");
+    echo "Adults : " .$adults[0].", ".$adults[1].", ".$adults[2].", ".$adults[3].", ".$adults[4].".";
     echo "<h3> Soal 2</h3>";
     /* 
             SOAL NO 2
@@ -32,6 +36,10 @@
     echo "<br>";
     echo "<ol>";
     echo "<li> $kids[0] </li>";
+    echo "<li> $kids[1] </li>";
+    echo "<li> $kids[2] </li>";
+    echo "<li> $kids[3] </li>";
+    echo "<li> $kids[4] </li>";
     // Lanjutkan
 
     echo "</ol>";
@@ -40,6 +48,10 @@
     echo "<br>";
     echo "<ol>";
     echo "<li> $adults[0] </li>";
+    echo "<li> $adults[1] </li>";
+    echo "<li> $adults[2] </li>";
+    echo "<li> $adults[3] </li>";
+    echo "<li> $adults[4] </li>";
     // Lanjutkan
 
     echo "</ol>";
@@ -107,6 +119,34 @@
                 )
             
         */
+        echo "<h3> Soal 3</h3>";
+        $aktor = array(
+        //data data untuk array    
+
+            array( "Name"=>"will Byers" ,
+                    "Age"=>"12",
+                    "Aliases"=>"will the wise",
+                    "Status"=>"Alive"),
+
+            array( "Name"=>"Mike wheeler", 
+                     "Age"=>"12",
+                     "Aliases"=>"Dugeon Master",
+                     "Status"=>"Alive"),
+                     
+            array( "Name"=>"Jim Hooper",
+                     "Age"=>"43",
+                     "Aliases"=>"Chief Hopper",
+                     "Status"=>"Deceased"),
+                     
+            array( "Name"=>"Eleven",
+                     "Age"=>"12",
+                     "Aliases"=>"E1",
+                     "Staus"=>"Alive")         
+        );
+
+/* tampilkan variabel array */
+echo '<pre>'; print_r($aktor); echo '</pre>';
+
     ?>
 </body>
 
